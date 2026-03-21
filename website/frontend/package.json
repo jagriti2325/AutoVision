@@ -1,11 +1,14 @@
 {
   "name": "autovision-frontend",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
   },
   "dependencies": {
